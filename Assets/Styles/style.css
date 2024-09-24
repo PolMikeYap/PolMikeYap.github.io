@@ -1,0 +1,132 @@
+.container {
+    position: relative;
+}
+
+/* about */
+
+a.topright:hover, a.topright:active {color: rgb(253, 196, 53);}
+
+.topright {
+    position: fixed;
+    top: 16px;
+    right: 250px;
+    font-size: 20px;
+    font-family: Arial;
+    text-decoration: none;
+    color: white;
+}
+
+/* projects */
+
+a.topright2:hover, a.topright2:active {color: rgb(253, 196, 53);}
+
+.topright2 {
+    position: fixed;
+    top: 16px;
+    right: 128px;
+    font-size: 20px;
+    font-family: Arial;
+    text-decoration: none;
+    color: white;
+}
+
+/* contacts */
+
+a.topright3:hover, a.topright3:active {color: rgb(253, 196, 53);}
+
+.topright3 {
+    position: fixed;
+    top: 16px;
+    right: 20px;
+    font-size: 20px;
+    font-family: Arial;
+    text-decoration: none;
+    color: white;
+}
+
+.topleft { /* my name */
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 600;
+    color: white;
+}
+
+.aboutme { /* about me */
+    position: absolute;
+    top: 300px;
+    left: 120px;
+    font-size: 50px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 600;
+    color: white
+}
+
+.aboutme2 { /* paragraph */
+    position: absolute;
+    text-align: justify;
+    width: 1000px;
+    height: 200px;
+    top: 400px;
+    left: 120px;
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+}
+
+img { /* web background */
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+/* my photo */
+
+.img2:hover {
+    transform: scaleX(-1);
+}
+
+.img2 {
+    position: absolute;
+    top: 175px;
+    right: 200px;
+    width: 25%;
+    height: auto;
+}
+
+.img3 { /* resume button */
+    position: absolute;
+    bottom: 400px;
+    left: 128px;
+    width: 7%;
+    height:auto
+    }
+
+.img4 { /* linkedin icon */
+    position: absolute;
+    bottom: 70px;
+    left: 46.5%;
+    width: 3%;
+    height: auto;
+}
+
+.img5 { /* behance icon */
+    position: absolute;
+    bottom: 70px;
+    right: 893px;
+    width: 3%;
+    height: auto;
+}
+
+.center { /* footer */
+    position: absolute;
+    top: 990px;
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+    font-size: 10px;
+    color: white;
+}
